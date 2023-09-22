@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7096235869671489588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8003710440079787483}
+  - component: {fileID: 1266743446707359388}
+  m_Layer: 0
+  m_Name: SkillGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8003710440079787483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7096235869671489588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1266743446707359388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7096235869671489588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d7c7cb63da33348b457c77ad05e0a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillList: []
+  currentlyGeneratedSkills: []
+  skillName: test
+  triggerType: 0
+  magicSchool: 0
+  hitType: 1
+  targetType: 0
+  projectileType: 0
+  projectileSpeed: 20
+  canUseToAlly: 0
+  canUseToEnemy: 1
+  targetAgent: 1
+  SwitchThisSkillWithGeneratedSkill: 1
+  cost: 1
+  range: 100
+  cooltime: 0
+  casttime: 0
+  maximumCharge: 1
+  canCastWhileCasting: 0
+  canCastWhileChanneling: 0
+  value: 0.03
+  interval: 0
+  duration: 0

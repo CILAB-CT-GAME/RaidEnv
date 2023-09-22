@@ -1,0 +1,37 @@
+{
+  "enemy": [
+    {
+      "tag": 0,
+      "skill1": "Fireball", 
+      "skill2": "FireBlast",
+      "skill3": "Pyroblast"
+    }
+  ],
+  "player": [
+    {
+      "tag": 0,
+      "skill1": "MagicMissile",
+      "skill2": "Fireball",
+      "skill3": "FireBlast"
+    },
+    {
+      "tag": 1,
+      "skill1": "MagicMissile",
+      "skill2": "Fireball",
+      "skill3": "FireBlast"
+    },
+    {
+      "tag": 2,
+      "skill1": "MagicMissile",
+      "skill2": "Fireball",
+      "skill3": "FireBlast"
+    }
+  ],
+  "skill_count": [0],
+  "adjustment": {
+      "cooltime": [0.5],
+      "range": [5.0, 9.0, 13.0, 17.0],
+      "casttime": [0.5],
+      "value": [0.5]
+  }
+}

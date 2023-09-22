@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a9a2a8e1dd1e9d343a166e5b3fcb6d36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SkillBullet: {instanceID: 0}
+  - PingSignal: {fileID: 225302208328216486, guid: ce9e0126f77926a4da203caf7110f480,
+      type: 3}
+  - FirePos: {instanceID: 0}
+  - m_OtherAgentsBuffer: {instanceID: 0}
+  executionOrder: 400
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

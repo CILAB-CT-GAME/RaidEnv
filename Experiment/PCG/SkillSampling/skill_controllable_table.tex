@@ -1,0 +1,40 @@
+\begin{table}[!h]
+\centering
+\caption{Descriptive statistics on the controllability of the generative models}
+\label{tab:pcg_controllbility_small}
+\begin{tabular}{cl|cc|cc}
+\toprule
+{} & {} & \multicolumn{2}{c}{Generated ($W_{c}$)} & \multicolumn{2}{c}{RMSE ($\|W_{t}-W_{c}\|$)} \\
+{} & {} & \multicolumn{2}{c}{Mean ($\pm{}$SD)} & \multicolumn{2}{c}{Mean ($\pm{}$SD)} \\
+{\begin{tabular}[x]{@{}c@{}}Target\\($W_{t}$)\end{tabular}} & {Method} & {} & {} & {} & {} \\
+\midrule
+\multirow[c]{3}{*}{0.1} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{e7eff4} \color{black} {0.107} ($\pm{}$0.064) } &\multicolumn{2}{c}{ \cellcolor[HTML]{cce2ee} \color{black} \textbf{{0.044} ($\pm{}$0.048)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{f7f3f0} \color{black} {0.163} ($\pm{}$0.254) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f7f3f0} \color{black} {0.165} ($\pm{}$0.203) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{f19e7c} \color{black} {0.357} ($\pm{}$0.385) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f5ac8b} \color{black} {0.336} ($\pm{}$0.318) }  \\
+\midrule
+\multirow[c]{3}{*}{0.2} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{fae7db} \color{black} {0.208} ($\pm{}$0.099) } &\multicolumn{2}{c}{ \cellcolor[HTML]{d8e8f1} \color{black} \textbf{{0.071} ($\pm{}$0.069)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{fcd6c1} \color{black} {0.256} ($\pm{}$0.337) } &\multicolumn{2}{c}{ \cellcolor[HTML]{fbd4be} \color{black} {0.262} ($\pm{}$0.219) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{e7886c} \color{black} {0.390} ($\pm{}$0.387) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f4a683} \color{black} {0.348} ($\pm{}$0.255) }  \\
+\midrule
+\multirow[c]{3}{*}{0.3} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{f8c1a6} \color{black} {0.296} ($\pm{}$0.113) } &\multicolumn{2}{c}{ \cellcolor[HTML]{dceaf2} \color{black} \textbf{{0.083} ($\pm{}$0.078)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{fae4d7} \color{black} {0.214} ($\pm{}$0.191) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f8efea} \color{black} {0.174} ($\pm{}$0.117) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{e27d63} \color{white} {0.405} ($\pm{}$0.387) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f3a380} \color{black} {0.350} ($\pm{}$0.197) }  \\
+\midrule
+\multirow[c]{3}{*}{0.4} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{e58368} \color{black} {0.399} ($\pm{}$0.123) } &\multicolumn{2}{c}{ \cellcolor[HTML]{dfecf2} \color{black} \textbf{{0.089} ($\pm{}$0.084)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{f4a683} \color{black} {0.349} ($\pm{}$0.312) } &\multicolumn{2}{c}{ \cellcolor[HTML]{facab1} \color{black} {0.280} ($\pm{}$0.148) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{e58368} \color{black} {0.397} ($\pm{}$0.397) } &\multicolumn{2}{c}{ \cellcolor[HTML]{ee9878} \color{black} {0.365} ($\pm{}$0.155) }  \\
+\midrule
+\multirow[c]{3}{*}{0.5} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{c94641} \color{white} {0.485} ($\pm{}$0.136) } &\multicolumn{2}{c}{ \cellcolor[HTML]{e4eef3} \color{black} \textbf{{0.103} ($\pm{}$0.090)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{d86551} \color{white} {0.440} ($\pm{}$0.328) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f9c5ab} \color{black} {0.287} ($\pm{}$0.168) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{eb9072} \color{black} {0.380} ($\pm{}$0.390) } &\multicolumn{2}{c}{ \cellcolor[HTML]{ea8e70} \color{black} {0.383} ($\pm{}$0.142) }  \\
+\midrule
+\multirow[c]{3}{*}{0.6} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{960f26} \color{white} {0.586} ($\pm{}$0.133) } &\multicolumn{2}{c}{ \cellcolor[HTML]{e2edf3} \color{black} \textbf{{0.097} ($\pm{}$0.092)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{7e0722} \color{white} {0.618} ($\pm{}$0.311) } &\multicolumn{2}{c}{ \cellcolor[HTML]{facab1} \color{black} {0.281} ($\pm{}$0.134) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{e58368} \color{black} {0.397} ($\pm{}$0.390) } &\multicolumn{2}{c}{ \cellcolor[HTML]{e48065} \color{white} {0.402} ($\pm{}$0.178) }  \\
+\midrule
+\multirow[c]{3}{*}{0.7} & Heuristic &\multicolumn{2}{c}{ \cellcolor[HTML]{67001f} \color{white} {0.684} ($\pm{}$0.116) } &\multicolumn{2}{c}{ \cellcolor[HTML]{deebf2} \color{black} \textbf{{0.087} ($\pm{}$0.077)} }  \\
+ & RL &\multicolumn{2}{c}{ \cellcolor[HTML]{6f0220} \color{white} {0.638} ($\pm{}$0.362) } &\multicolumn{2}{c}{ \cellcolor[HTML]{f8bfa3} \color{black} {0.300} ($\pm{}$0.212) }  \\
+ & Random &\multicolumn{2}{c}{ \cellcolor[HTML]{ee9878} \color{black} {0.369} ($\pm{}$0.388) } &\multicolumn{2}{c}{ \cellcolor[HTML]{d6604d} \color{white} {0.451} ($\pm{}$0.240) }  \\
+\bottomrule
+\end{tabular}
+\end{table}

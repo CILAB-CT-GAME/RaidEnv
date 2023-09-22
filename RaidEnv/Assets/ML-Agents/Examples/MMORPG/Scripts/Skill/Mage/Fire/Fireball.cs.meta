@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b899bdfaa8fa554a954b18be35139fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - skillProjectile: {fileID: 8513949087455737193, guid: 3c686b2134559654898db719c210381f,
+      type: 3}
+  - projectilePos: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
