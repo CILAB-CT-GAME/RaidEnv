@@ -12,11 +12,11 @@ would be impractical or impossible to conduct in other environments.
 ### Environment Setup
 
 1. Install the Unity Editor with version [`2020.3.25f1`](https://unity3d.com/get-unity/download/archive)
-2. Install the Unity ml-agents from [github](https://github.com/Unity-Technologies/ml-agents)
-    ```
-    pip install --target $PATH_TO_INSTALL$ mlagents=0.28   
-    ```   
-   
+2. Install the Unity ml-agents from this [repository](https://github.com/Unity-Technologies/ml-agents)
+ ```
+ pip install --target $PATH_TO_INSTALL$ mlagents=0.28   
+ ```   
+
 ### Usage
 
 Workspace: `/Project/Assets/ML-Agents/Examples/MMORPG`
