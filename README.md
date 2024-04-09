@@ -46,10 +46,10 @@ To train multi-agents, in addition to downloading and opening this environment, 
 Follow the [getting started guide](https://github.com/Unity-Technologies/ml-agents/blob/release_18_docs/docs/Getting-Started.md) for more information on how to use the ML-Agents trainers.
 
     
-    mlagents-learn /app/ml-agents-dodgeball-env/MMORPG.yaml --env=/app/envs/MMORPG_Linux/MMORPG_Training.x86_64 --no-graphics --force --run-id=mmorpg1
+    mlagents-learn /app/MA/{RL_HEURISTIC/RL_GENERALIZATION}/configs/{CONFIG_NAME}.yaml --env=/app/envs/MMORPG_Linux/MMORPG_Training.x86_64 --no-graphics --force --run-id=mmorpg1
 
 You will need to use the MMORPG_training.unity scenes for training.  
-A configuration YAML (MMORPG.yaml) for ML-Agents is provided. 
+A configuration YAML (Experiment/MA/RL_GENERALIZATION/configs or Experiment/MA/RL_HEURISTIC/configs) for ML-Agents is provided. 
 Depending on your computer's capabilities, you can uncomment and increase the number of environments (num_envs).
 
 
