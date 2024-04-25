@@ -99,7 +99,7 @@ public class ProjectileManager : MonoBehaviour
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
 
         go.SetActive(false);
-        go.AddComponent<Projectile>();
+        // go.AddComponent<Projectile>();
 
         return go;
     }

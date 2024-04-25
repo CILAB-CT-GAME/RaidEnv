@@ -78,7 +78,7 @@ public class Projectile : MonoBehaviour
                     Deactivate();
                 break;
             case "wall":
-                Debug.Log("IsNull"+_skill);
+                // Debug.Log("IsNull"+_skill);
                 if (_skill.projectileFX.type == ProjectileType.Missile)
                     Deactivate();
                 break;
